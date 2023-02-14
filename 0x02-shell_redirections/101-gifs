@@ -1,0 +1,981 @@
+#!/bin/bash
+ush
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 395 bytes | 395.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   032dcb1..83243ce  master -> master
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"15-countthatword" [New File]                                 0,0-1         All
+#!/bin/bash
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 13-unique
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 13-unique
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m ' akes a list of words as input and prints only words that appear exactly once '
+[master ccb2266]  akes a list of words as input and prints only words that appear exactly once
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/13-unique
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 401 bytes | 401.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   83243ce..ccb2266  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 14-findthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 14-findthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git a
+#!/bin/bash
+grep -i "bin" /etc/passwd | wc -1
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"15-countthatword" 2L, 46C                                    2,33          All
+#!/bin/bash
+dd .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display lines containing the pattern “root” from a file'
+[master 12c67e1] Display lines containing the pattern “root” from a file
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/14-findthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 422 bytes | 422.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   ccb2266..12c67e1  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 15-countthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 15-countthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# ls
+0-hello_world    14-findthatword    4-lastlines   9-duplicate_last_line
+10-no_more_js    15-countthatword   5-firstlines  README.md
+11-directories   1-confused_smiley  6-third_line
+12-newest_files  2-hellofile        7-file
+13-unique        3-twofiles         8-cwd_state
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+#!/bin/bash
+grep -i "bin" /etc/passwd | wc -l
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"15-countthatword" 3L, 47C                                    3,0-1         All
+#!/bin/bash
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display the number of lines that contain the pattern “bin” in a file'
+[master 544d1a4] Display the number of lines that contain the pattern “bin” in a file
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/15-countthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 436 bytes | 436.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   12c67e1..544d1a4  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 15-countthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 15-countthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git a
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"16-whatsnext" [New File]                                     0,0-1         All
+#!/bin/bash
+dd .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display the number of lines that contain the pattern “bin” in a file'
+[master 6facceb] Display the number of lines that contain the pattern “bin” in a file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display the number of lines that contain the pattern “bin” in a file'
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 419 bytes | 419.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   544d1a4..6facceb  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 15-countthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 15-countthatword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"17-hidethisword" [New File]                                  0,0-1         All
+#!/bin/bash
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display the number of lines that contain the pattern “bin” in a file'
+[master 3b1d9af] Display the number of lines that contain the pattern “bin” in a file
+ 1 file changed, 1 deletion(-)
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 415 bytes | 415.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   6facceb..3b1d9af  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 16-whatsnext
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 16-whatsnext
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display lines containing the pattern “root” and 3 lines after them in
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"18-letteronly" [New File]                                    0,0-1         All
+#!/bin/bash
+a file'
+[master 9edb344] Display lines containing the pattern “root” and 3 lines after them in a file
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/16-whatsnext
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 430 bytes | 430.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   3b1d9af..9edb344  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# ls
+0-hello_world    14-findthatword    3-twofiles    8-cwd_state
+10-no_more_js    15-countthatword   4-lastlines   9-duplicate_last_line
+11-directories   16-whatsnext       5-firstlines  README.md
+12-newest_files  1-confused_smiley  6-third_line
+13-unique        2-hellofile        7-file
+#!/bin/bash
+find . -type f -name "*.gif" -print0 | while IFS= read -r -d '' file; do
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"18-letteronly" 2L, 85C                                       2,72          All
+#!/bin/bash
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 17-hidethisword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 17-hidethisword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display all the lines in a file that do not contain the pattern “bin”.'
+[master 1ebfbb9] Display all the lines in a file that do not contain the pattern “bin”.
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/17-hidethisword
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 426 bytes | 426.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"19-AZ" [New File]                                            0,0-1         All
+#!/bin/bash
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   9edb344..1ebfbb9  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 18-letteronly
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 18-letteronly
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display all lines of a file starting with a letter'
+[master 17353be] Display all lines of a file starting with a letter
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/18-letteronly
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 450 bytes | 450.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   1ebfbb9..17353be  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 18-letteronly
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 18-letteronly
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git a
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"20-hiago" [New File]                                         0,0-1         All
+#!/bin/bash
+dd .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Display all lines of a file starting with a letter'
+[master bbca58f] Display all lines of a file starting with a letter
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 399 bytes | 399.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   17353be..bbca58f  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 19-AZ
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# ls
+0-hello_world    15-countthatword   2-hellofile   8-cwd_state
+10-no_more_js    16-whatsnext       3-twofiles    9-duplicate_last_line
+11-directories   17-hidethisword    4-lastlines   README.md
+12-newest_files  18-letteronly      5-firstlines
+13-unique        19-AZ              6-third_line
+14-findthatword  1-confused_smiley  7-file
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 19-AZ
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'Replace all characters A and c from input to Z and e respectively.'
+[master 11bff4e] Replace all characters A and c from input to Z and e respectively.
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/19-AZ
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git p
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"21-reverse" [New File]                                       0,0-1         All
+#!/bin/bash
+ush
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 403 bytes | 403.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   bbca58f..11bff4e  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 20-hiago
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# ls
+0-hello_world    15-countthatword   20-hiago      7-file
+10-no_more_js    16-whatsnext       2-hellofile   8-cwd_state
+11-directories   17-hidethisword    3-twofiles    9-duplicate_last_line
+12-newest_files  18-letteronly      4-lastlines   README.md
+13-unique        19-AZ              5-firstlines
+14-findthatword  1-confused_smiley  6-third_line
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 20-hiago
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# ls
+0-hello_world    15-countthatword   20-hiago      7-file
+10-no_more_js    16-whatsnext       2-hellofile   8-cwd_state
+11-directories   17-hidethisword    3-twofiles    9-duplicate_last_line
+12-newest_files  18-letteronly      4-lastlines   README.md
+13-unique        19-AZ              5-firstlines
+14-findthatword  1-confused_smiley  6-third_line
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git a
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"22-users_and_homes" [New File]                               0,0-1         All
+#!/bin/bash
+dd .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'remove all letters c and C from input.'
+[master ae0fbe6] remove all letters c and C from input.
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/20-hiago
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 374 bytes | 374.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   11bff4e..ae0fbe6  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 21-reverse
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# ls
+0-hello_world    15-countthatword   20-hiago      6-third_line
+10-no_more_js    16-whatsnext       21-reverse    7-file
+11-directories   17-hidethisword    2-hellofile   8-cwd_state
+12-newest_files  18-letteronly      3-twofiles    9-duplicate_last_line
+13-unique        19-AZ              4-lastlines   README.md
+14-findthatword  1-confused_smiley  5-firstlines
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 21-reverse
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git a
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"100-empty_casks" [New File]                                  0,0-1         All
+#!/bin/bash
+dd .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'reverse the input.'
+[master cc8736a] reverse the input.
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/21-reverse
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 354 bytes | 354.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/abdellah-chinouf/alx-system_engineering-devops.git
+   ae0fbe6..cc8736a  master -> master
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# vim 22-users_and_homes
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# ls
+0-hello_world    15-countthatword   20-hiago            5-firstlines
+10-no_more_js    16-whatsnext       21-reverse          6-third_line
+11-directories   17-hidethisword    22-users_and_homes  7-file
+12-newest_files  18-letteronly      2-hellofile         8-cwd_state
+13-unique        19-AZ              3-twofiles          9-duplicate_last_line
+14-findthatword  1-confused_smiley  4-lastlines         README.md
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# chmod u+x 22-users_and_homes
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git add .
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git commit -m 'display all users and their home directories, sorted by users.'
+[master fdaa0d1] display all users and their home directories, sorted by users.
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x02-shell_redirections/22-users_and_homes
+root@293bd3407e86:~/alx-system_engineering-devops/0x02-shell_redirections# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"101-gifs" [New File]                                         0,0-1         All
+#!/bin/bash
+find -name '*.gif' -type f -printf '%f\n' |  LC_ALL=C sort -f | rev | cut -c 5- | rev
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                  1,97          Ali
